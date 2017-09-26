@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.nikolaybespalov</groupId>
+    <artifactId>windows-event-log-handler-example</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Windows Event Log Handler Example</name>
+    <description>An example of using the Windows Event Log Handler</description>
+    <url>https://github.com/nikolaybespalov/windows-event-log-handler-example</url>
+    <inceptionYear>2017</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>${project.author.name}</name>
+            <email>${project.author.email}</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/nikolaybespalov/windows-event-log-handler-example</url>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/nikolaybespalov/windows-event-log-handler-example/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>AppVeyor</system>
+        <url>https://ci.appveyor.com/project/nikolaybespalov/windows-event-log-handler-example</url>
+    </ciManagement>
+
+    <properties>
+        <project.author.name>Nikolay Bespalov</project.author.name>
+        <project.author.email>nikolaybespalov@gmail.com</project.author.email>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.nikolaybespalov</groupId>
+            <artifactId>windows-event-log-handler</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
