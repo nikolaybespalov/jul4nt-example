@@ -7,7 +7,7 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Windows Event Log Handler Example</name>
+    <name>An jul4nt example</name>
     <description>An example of using the Windows Event Log Handler</description>
     <url>https://github.com/nikolaybespalov/jul4nt</url>
     <inceptionYear>2017</inceptionYear>
@@ -51,7 +51,7 @@
     <dependencies>
         <dependency>
             <groupId>com.github.nikolaybespalov</groupId>
-            <artifactId>windows-event-log-handler</artifactId>
+            <artifactId>jul4nt</artifactId>
             <version>0.1.5</version>
         </dependency>
     </dependencies>

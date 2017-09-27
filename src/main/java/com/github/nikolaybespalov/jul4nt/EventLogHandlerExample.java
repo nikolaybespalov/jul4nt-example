@@ -17,28 +17,30 @@
 // under the License.
 //
 
-package com.github.nikolaybespalov;
+package com.github.nikolaybespalov.jul4nt;
 
 import java.io.IOException;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 /**
- * An example of using the <tt>Windows Event Log Handler</tt>.
+ * An example of using the <tt>jul4nt</tt>.
  *
  * @author <a href="mailto:nikolaybespalov@gmail.com">Nikolay Bespalov</a>
  */
 
-public class WindowsEventLogHandlerExample {
+public class EventLogHandlerExample {
     private static final Logger log = Logger.getGlobal();
 
     public static void main(String[] args) {
         try {
-            LogManager.getLogManager().readConfiguration(WindowsEventLogHandler.class.getResourceAsStream("logging.properties"));
+            LogManager.getLogManager().readConfiguration(EventLogHandler.class.getResourceAsStream("logging.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         log.info("Hello, World!");
+
+        // Now see the Windows Event Log
     }
 }
