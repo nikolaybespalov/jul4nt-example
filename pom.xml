@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>An jul4nt example</name>
-    <description>An example of using the Windows Event Log Handler</description>
+    <description>An example of using the jul4nt</description>
     <url>https://github.com/nikolaybespalov/jul4nt</url>
     <inceptionYear>2017</inceptionYear>
 
