@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.nikolaybespalov</groupId>
-    <artifactId>windows-event-log-handler-example</artifactId>
+    <artifactId>jul4nt</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Windows Event Log Handler Example</name>
     <description>An example of using the Windows Event Log Handler</description>
-    <url>https://github.com/nikolaybespalov/windows-event-log-handler-example</url>
+    <url>https://github.com/nikolaybespalov/jul4nt</url>
     <inceptionYear>2017</inceptionYear>
 
     <licenses>
@@ -28,16 +28,16 @@
     </developers>
 
     <scm>
-        <url>https://github.com/nikolaybespalov/windows-event-log-handler-example</url>
+        <url>https://github.com/nikolaybespalov/jul4nt</url>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/nikolaybespalov/windows-event-log-handler-example/issues</url>
+        <url>https://github.com/nikolaybespalov/jul4nt/issues</url>
     </issueManagement>
 
     <ciManagement>
         <system>AppVeyor</system>
-        <url>https://ci.appveyor.com/project/nikolaybespalov/windows-event-log-handler-example</url>
+        <url>https://ci.appveyor.com/project/nikolaybespalov/jul4nt</url>
     </ciManagement>
 
     <properties>
@@ -52,7 +52,7 @@
         <dependency>
             <groupId>com.github.nikolaybespalov</groupId>
             <artifactId>windows-event-log-handler</artifactId>
-            <version>0.1.2</version>
+            <version>0.1.5</version>
         </dependency>
     </dependencies>
 </project>
